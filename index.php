@@ -3,7 +3,7 @@
 require('simple_html_dom.php');
 
 function authenticate(){
-	$webToken="302517024:AAGgrgOiESarNaMM8LoS6Ct-goVmJ3ircmc";
+	$webToken="5367563444:AAG796TsrxSbgT6gmBR6jHb26uTiMEaUsxs";
     $url="https://api.telegram.org/bot".$webToken;
 	return $url;
 }
